@@ -1,3 +1,3 @@
-# aulas-ifpr
-Aulas IFPR Programação para análise de dados
-============================================
+# REPOSITÓRIO DE ARQUIVOS DO CURSO
+Aulas Programação para análise de dados
+=======================================
