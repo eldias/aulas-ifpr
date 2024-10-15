@@ -21,6 +21,8 @@ print("Tamanho da lista 3: ", len(lista3))
 print("Tamanho da lista 5: ", len(lista5))
 print("\n\n")
 
+tecla = ""
+
 tecla = input("Any keys to continue: ")
 
 if tecla == any:
