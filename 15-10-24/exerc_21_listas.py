@@ -2,6 +2,25 @@
     5. Implementar um programa que solicite ao usuário duas listas de números. O programa deverá concatenar as listas e exibir o resultado.
 """
 
+n1 = int(input("Informe a quantidade da lista1: "))
+n2 = int(input("Informe a quantidade da lista2: "))
+
+lista1 = []
+for i in range(n1):
+    num = int(input("Informe um número: "))
+    lista1.append(num)
+
+lista2 = []
+for i in range(n2):
+    num = int(input("Informe um número: "))
+    lista2.append(num)
+
+lista1.extend(lista2)
+lista2 = []
+[print(i) for i in lista1]
+
+
+""" 
 import os
 
 lista = list() # criação de lista
@@ -28,3 +47,4 @@ print(f"A lista concatenada é: {lista_concatenada}\n\n")
 
 
 
+ """
