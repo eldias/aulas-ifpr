@@ -4,7 +4,9 @@
 
 atletismo = set()
 basquete = set()
-parar = 'fim' # define comando na variável stop
+
+# código em while
+""" parar = 'fim' # define comando na variável stop
 
 while True: # abre loop while
     termo = input("Insira um nome para adicionar ao time de atletismo: ") # define val com entrada de texto
@@ -20,8 +22,18 @@ while True: # abre loop while
         break # pare o loop
     basquete.add(termo) # adicione os temos em lista
 
-print('Sua lista é de jogadores de basquete são: ',basquete) # imprima a lista
+print('Sua lista é de jogadores de basquete são: ',basquete) # imprima a lista """
 
-jogadores = atletismo & basquete
+n = int(input("Qtde estudantes: "))
+for e in range(n):
+    estudante = input("Nome do estudante: ")
+    atletismo.add(estudante)
+
+n = int(input("Qtde estudantes: "))
+for e in range(n):
+    estudante = input("Nome do estudante: ")
+    basquete.add(estudante)
+
+jogadores = atletismo & basquete # interseção
 
 print(f"\nOs jogadores que estão em ambos times são:\n{jogadores}")
