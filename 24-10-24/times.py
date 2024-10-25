@@ -25,5 +25,3 @@ print('Sua lista é de jogadores de basquete são: ',basquete) # imprima a lista
 jogadores = atletismo & basquete
 
 print(f"\nOs jogadores que estão em ambos times são:\n{jogadores}")
-
-
