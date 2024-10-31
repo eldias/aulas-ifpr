@@ -1,4 +1,4 @@
-string = "Elias Dias Junior"
+string = "Elias. Di.as. Junior"
 
 """ print(len(string), "chars")
 
@@ -10,5 +10,5 @@ print(string.count('a'))"""
 
 print(string.find('ias'))
 
-
+print(string.split(sep="."))
 
