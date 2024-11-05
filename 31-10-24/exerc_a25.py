@@ -11,4 +11,6 @@ for letra in palavra.lower():
     if letra in vogais:
         total_vogais.append(letra)
 
-print(len(total_vogais))
+quantidade_de_vogais: int = len(total_vogais)
+
+print(f'Quantidade de vogais são {quantidade_de_vogais}.')
