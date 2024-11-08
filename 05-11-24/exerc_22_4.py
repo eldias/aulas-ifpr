@@ -12,8 +12,8 @@ with open(caminho, "r", encoding="ISO-8859-1") as acesso:
         dados_linha: list = linha.replace("\n", "").split(";")
         auth.append(dados_linha)
 
-login = auth[0][1]
-senha = auth[1][1]
+login = auth[0][1] # login = eldias
+senha = auth[1][1] # senha = 1234
 
 
 while True:
