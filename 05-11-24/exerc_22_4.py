@@ -3,7 +3,6 @@
 """
 import getpass
 
-
 caminho: str = "05-11-24/auth.txt"
 auth: list = []
 with open(caminho, "r", encoding="ISO-8859-1") as acesso:
@@ -19,10 +18,13 @@ senha = auth[1][1] # senha = 1234
 while True:
     q_login: str = input("Qual o nome do usuário? ")
     q_senha: str = getpass.getpass("Qual a senha do usuário? ")
-    if q_login == login and q_senha == senha:
-        print(f"\nOlá, você está logado!")
-        break
+    if q_login == login:
+        if q_senha == senha:
+            print(f"\nOlá, você está logado!")
+            break
+        else:
+            print(f"Erro! Favor tentar novamente a senha.\n Esqueceu sua senha? Clique aqui.(link para recuperação de senha por e-mail)")
     else:
-        print(f"Erro! Favor tentar novamente o login.")
+        print("Usuário incorreto! Tente novamente.")
 
 print('"Usuário acessou o sistema"\n')
