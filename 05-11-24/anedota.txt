@@ -1,3 +1,7 @@
-Python: You create a gun module, a gun class, a foot module and a foot class. After realising you can't point the gun at the foot, you pass a reference to the gun to a foot object. After the foot is blown up, the gun object remains alive for eternity, ready to shoot all future feet that may happen to appear.
-Java: You find that Microsoft and Sun have released imcompatible class libraries both implementing Gun objects. You then find that although there are plenty of feet objects implemented in the past in many other languages, you cannot get access to one. But seeing as Java is so cool, you dont care and go around shooting anything else you can find.
+Python: You create a gun module, a gun class, a foot module and a foot class.
+After realising you can't point the gun at the foot, you pass a reference to the gun to a foot object.
+After the foot is blown up, the gun object remains alive for eternity, ready to shoot all future feet that may happen to appear.
+Java: You find that Microsoft and Sun have released imcompatible class libraries both implementing Gun objects.
+You then find that although there are plenty of feet objects implemented in the past in many other languages, you cannot get access to one.
+But seeing as Java is so cool, you dont care and go around shooting anything else you can find.
 Mark Hammond
